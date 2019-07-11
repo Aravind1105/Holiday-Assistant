@@ -1,0 +1,26 @@
+.image {
+  background-image: url("../../bg_1.jpg");
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 790px;
+  position: absolute;
+  /* background-size: auto; */
+  width: 100% !important;
+}
+
+.layout {
+  margin-top: 150px;
+}
+.layout1 {
+  margin-top: 55px;
+}
+.icon-date {
+  margin-top: -8px;
+}
+.form-search {
+  margin-bottom: 31px;
+}

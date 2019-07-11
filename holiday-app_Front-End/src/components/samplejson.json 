@@ -1,0 +1,87 @@
+  "data": [
+        {
+            "type": "flight-offer",
+            "id": "1558790224900-1774891738",
+            "offerItems": [
+                {
+                    "services": [
+                        {
+                            "segments": [
+                                {
+                                    "flightSegment": {
+                                        "departure": {
+                                            "iataCode": "MAD",
+                                            "terminal": "2",
+                                            "at": "2019-08-01T19:30:00+02:00"
+                                        },
+                                        "arrival": {
+                                            "iataCode": "ORY",
+                                            "terminal": "2",
+                                            "at": "2019-08-01T21:30:00+02:00"
+                                        },
+                                        "carrierCode": "UX",
+                                        "number": "1021",
+                                        "aircraft": {
+                                            "code": "73H"
+                                        },
+                                        "operating": {
+                                            "carrierCode": "UX",
+                                            "number": "1021"
+                                        },
+                                        "duration": "0DT2H0M"
+                                    },
+                                    "pricingDetailPerAdult": {
+                                        "travelClass": "ECONOMY",
+                                        "fareClass": "N",
+                                        "availability": 9,
+                                        "fareBasis": "NYYR5L"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "segments": [
+                                {
+                                    "flightSegment": {
+                                        "departure": {
+                                            "iataCode": "ORY",
+                                            "terminal": "2",
+                                            "at": "2019-08-28T20:10:00+02:00"
+                                        },
+                                        "arrival": {
+                                            "iataCode": "MAD",
+                                            "terminal": "2",
+                                            "at": "2019-08-28T22:10:00+02:00"
+                                        },
+                                        "carrierCode": "UX",
+                                        "number": "1026",
+                                        "aircraft": {
+                                            "code": "73H"
+                                        },
+                                        "operating": {
+                                            "carrierCode": "UX",
+                                            "number": "1026"
+                                        },
+                                        "duration": "0DT2H0M"
+                                    },
+                                    "pricingDetailPerAdult": {
+                                        "travelClass": "ECONOMY",
+                                        "fareClass": "Z",
+                                        "availability": 1,
+                                        "fareBasis": "ZYYR0L"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "price": {
+                        "total": "96.70",
+                        "totalTaxes": "47.70"
+                    },
+                    "pricePerAdult": {
+                        "total": "96.70",
+                        "totalTaxes": "47.70"
+                    }
+                }
+            ]
+        }

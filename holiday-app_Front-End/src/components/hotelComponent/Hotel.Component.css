@@ -1,0 +1,96 @@
+.hot_img {
+  float: left;
+}
+.content1 {
+  float: left;
+}
+.card-hotel-layout {
+  margin-top: 85px;
+  margin-left: 250px;
+  /* margin-bottom: 50px; */
+  width: 60rem;
+  position: relative;
+}
+.tags {
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+  font-size: 9px;
+}
+.align-hotel {
+  text-align: start;
+}
+.wrapper {
+  width: 70%;
+}
+@media (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+.panel-heading {
+  padding: 0;
+  border: 0;
+}
+.panel-title > a,
+.panel-title > a:active {
+  display: block;
+  padding: 15px;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-decoration: none;
+}
+.panel-heading.active a:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.tag {
+  color: #fff;
+  font-weight: bold;
+  background: #3498db;
+  float: left;
+  padding: 5px 10px;
+  border-radius: 10em;
+  margin: 5px;
+}
+body {
+  font-family: "open sans", "helvetica neue", helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  background: #ecf0f1;
+}
+.align-left {
+  text-align: start;
+  float: left;
+  /* margin-left: -100px !important; */
+  /* margin-left: -100px; */
+}
+.euro-sign {
+  font-size: 15px;
+}
+.align-right {
+  text-align: end;
+  float: right;
+  /* clear: both; */
+}
+.star-float {
+  margin-top: 10px;
+  /* float: left; */
+}
+.head-layout {
+  margin-left: 0px !important;
+  text-align: justify;
+}
+.hotel-btn {
+  /* margin: 7px; */
+  text-align: center !important;
+  margin: 10px 0 35px 220px;
+  /* margin-left: 200px;
+  margin-bottom: 35px; */
+}

@@ -1,0 +1,360 @@
+.dropdown-toggle {
+  float: left;
+}
+.r1 {
+  float: right;
+  /* clear: all; */
+}
+.sub {
+  margin: 10px;
+}
+.req {
+  margin-top: 50px;
+}
+.fa-angle-double-right {
+  font-size: 30px !important;
+}
+
+.allTabs {
+  margin-top: 40px;
+}
+.myTrp {
+  padding: 20px 40px 30px;
+  position: relative;
+  background-image: linear-gradient(82deg, #5ee7cd, #7dbfcc);
+}
+.banner_img {
+  background-image: url("../../bannerFlightGrey.svg");
+  position: absolute;
+  top: 0;
+  right: 50px;
+  /* float: right; */
+  width: 500px;
+  height: 335px;
+  background-repeat: no-repeat;
+  /* background-size: 70px * 70px; */
+}
+.fltTravlrinfoCrd {
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  word-break: break-word;
+  margin-top: 15px;
+}
+.fltTravlrinfoCrd__headItm {
+  display: flex;
+}
+.font12 {
+  font-size: 12px;
+  line-height: 14px;
+}
+.fltTravlrinfoCrd__prsonIcon {
+  width: 24px;
+  max-height: 24px;
+  margin-right: 15px;
+  margin-top: -4px;
+  flex-shrink: 0;
+}
+.fltTravlrinfoCrd__nameAgeGendr {
+  width: 270px;
+}
+.fltTravlrinfoCrd__carryOn,
+.fltTravlrinfoCrd__chckIn,
+.fltTravlrinfoCrd__eTicket,
+.fltTravlrinfoCrd__meal,
+.fltTravlrinfoCrd__nameAgeGendr,
+.fltTravlrinfoCrd__pnr,
+.fltTravlrinfoCrd__seat {
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.fltTravlrinfoCrd__pnr {
+  width: 70px;
+}
+.fltTravlrinfoCrd__eTicket {
+  width: 120px;
+}
+.fltTravlrinfoCrd__seat {
+  width: 50px;
+}
+.fltTravlrinfoCrd__meal {
+  width: 90px;
+}
+.fltTravlrinfoCrd__bodyItm:nth-child(2) {
+  padding-top: 0;
+  margin-top: 15px;
+  border: 0;
+}
+
+.font14 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 15px;
+}
+.fltTravlrinfoCrd__bodyItmRow {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.fltTravlrinfoCrd__prsonIcon {
+  width: 24px;
+  max-height: 24px;
+  margin-right: 15px;
+  margin-top: -4px;
+  flex-shrink: 0;
+}
+.pad {
+  padding-right: 740px;
+}
+.myTrpFltInfSumryCrd__hadIcon {
+  margin-left: auto;
+  align-self: flex-start;
+}
+.cm__myTripSprt--downArrowCircle {
+  width: 28px;
+  height: 28px;
+  background-position: -478px -395px;
+  float: right;
+}
+.cm__myTripSprt--male {
+  width: 24px;
+  height: 24px;
+  background-position: -110px -169px;
+}
+.cm__myTripSprt {
+  background-image: url(https://img.mmtcdn.com/mima/images/Desktop/mytripSprite.png);
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.latoBlack {
+  font-weight: 900;
+}
+.blackText {
+  color: #000;
+}
+.latoRegular {
+  font-weight: 400;
+}
+.tooltipCompt--width180 {
+  width: 180px;
+}
+.makeFlex {
+  display: flex;
+  min-width: max-content;
+}
+.myTrpFltInfSumryCrd__fltPlacDtalBlok {
+  width: 230px;
+  flex-shrink: 0;
+  word-break: break-word;
+}
+.font16 {
+  font-size: 16px;
+}
+.latoBold {
+  font-weight: 700;
+}
+.appendTop5 {
+  margin-top: 5px;
+}
+.makeFlex.end {
+  align-items: flex-end;
+}
+.myTrpFltInfSumryCrd__oddTimeIndicatScton {
+  position: relative;
+  line-height: 1;
+  align-self: flex-end;
+}
+.myTrpFltInfSumryCrd__oddTimeIcon {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.cm__myTripSprt--redEye {
+  width: 20px;
+  height: 13px;
+  background-position: -378px -271px;
+}
+.myTrpFltInfSumryCrd__oddTimeIndicatScton .tooltipCompt {
+  left: -20px;
+  display: none;
+}
+.font18 {
+  font-size: 18px;
+}
+.blackText {
+  color: #000;
+}
+.myTrpFltInfSumryCrd__airportInfo {
+  padding-top: 5px;
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+}
+.appendLeft10 {
+  margin-left: 10px;
+}
+.city {
+  padding-left: 25px;
+}
+.myTrpFltInfSumryCrd__sgmntDuratnContanr {
+  margin: 5px 45px 0 40px;
+  width: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  flex-shrink: 0;
+  padding-left: 35px;
+}
+.cm__myTripSprt--flightSmallGreen {
+  width: 32px;
+  height: 32px;
+  background-position: -396px -358px;
+}
+.myTrpFltInfSumryCrd__travelLine {
+  width: 60px;
+  margin-top: 10px;
+}
+.cm__myTripSprt {
+  background-image: url(https://img.mmtcdn.com/mima/images/Desktop/mytripSprite.png);
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cm__travelLine {
+  width: 105px;
+  height: 1px;
+  border-bottom: 2px dotted #9b9b9b;
+  position: relative;
+  flex-shrink: 0;
+  display: inline-block;
+}
+.font14 {
+  font-size: 12px;
+  line-height: 18px;
+}
+.code {
+  width: max-content;
+}
+.font5 {
+  font-size: 10px;
+}
+.myTrpFltInfSumryCrd__fltPlacDtalBlok {
+  width: 230px;
+  flex-shrink: 0;
+  word-break: break-word;
+}
+.appendTop5 {
+  margin-top: 5px;
+  margin-left: 35px;
+}
+.myTrpFltInfSumryCrd__airportInfo {
+  padding-top: 5px;
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+}
+.myTrpFltInfSumryCrd__sumryInfoCntanr {
+  margin-top: 25px;
+}
+.myTrpFltInfSumryCrd__sumryInfoLst:first-child {
+  margin-top: 5px;
+  margin-left: 170px;
+}
+.myTrpFltInfSumryCrd__sumryInfoLst {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 0;
+}
+.myTrpFltInfSumryCrd__sumryInfoItm {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 5px;
+  margin-right: 20px;
+  position: relative;
+}
+.myTrpFltInfSumryCrd__sumryInfoItmIcon {
+  align-self: flex-start;
+  margin-right: 5px;
+}
+/* .myTrpFltInfSumryCrd__sumryInfoItm:first-child
+  .myTrpFltInfSumryCrd__sumryInfoItmTxt,
+.myTrpFltInfSumryCrd__sumryInfoItm:nth-child(n + 3)
+  .myTrpFltInfSumryCrd__sumryInfoItmTxt {
+  width: 130px;
+} */
+.myTrpFltInfSumryCrd__sumryInfoItm {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 5px;
+  margin-right: 20px;
+  position: relative;
+}
+.cm__myTripSprt--luggageGrey {
+  width: 24px;
+  height: 24px;
+  background-position: -468px -361px;
+}
+.myTrpFltInfSumryCrd__sumryInfoItmIcon {
+  align-self: flex-start;
+  /* margin-right: 5px; */
+  /* margin-left: 200px; */
+}
+.cm__myTripSprt--premiumEconomy {
+  width: 24px;
+  height: 24px;
+  background-position: -467px -332px;
+}
+/* .myTrpFltInfSumryCrd__sumryInfoItm:nth-child(2)
+  .myTrpFltInfSumryCrd__sumryInfoItmTxt,
+.myTrpFltInfSumryCrd__sumryInfoItm:nth-child(2n + 3)
+  .myTrpFltInfSumryCrd__sumryInfoItmTxt {
+  width: 210px;
+} */
+.redText {
+  color: #eb2026;
+}
+.flex {
+  margin-left: 175px;
+  margin-top: 15px;
+}
+.myTrpFltInfSumryCrd__sumryInfoItm .tooltipCompt {
+  display: none;
+}
+.tooltipCompt {
+  border-radius: 3px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  padding: 10px;
+  width: 220px;
+  position: absolute;
+  left: -27px;
+  top: 28px;
+  z-index: 10;
+}
+.myTrpFltInfSumryCrd__sumryInfoItm:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.myTrpFltInfSumryCrd__sumryInfoItm {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 5px;
+  margin-right: 20px;
+  position: relative;
+}
+.cm__myTripSprt--carryOn {
+  width: 24px;
+  height: 24px;
+  background-position: -467px -304px;
+}
+/* .myTrpFltInfSumryCrd__sumryInfoItm:nth-child(3)
+  .myTrpFltInfSumryCrd__sumryInfoItmTxt,
+.myTrpFltInfSumryCrd__sumryInfoItm:nth-child(3n + 3)
+  .myTrpFltInfSumryCrd__sumryInfoItmTxt {
+  width: 354px;
+} */

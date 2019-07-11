@@ -1,0 +1,63 @@
+import React, { Component } from "react"; import Amadeus from "amadeus"; const
+amadeus = new Amadeus({ clientId: "ms2o7JGsa83kszn2i9SWgC9jySvpxH3F",
+clientSecret: "IPOV2zCofJsAkuLg" }); class ContainerComponent extends Component
+{ constructor(props) { super(props); this.state = { price: "" }; }
+componentDidMount() { this.init(); } init() { const that = this; var flightData
+= JSON.parse(sessionStorage.getItem("FlightDetails")); if
+(flightData.returnDate) { amadeus.shopping.flightOffers .get({ origin:
+flightData.origin, destination: flightData.destination, departureDate:
+flightData.departureDate, returnDate: flightData.returnDate }) .then(function
+(response) { response.data.map((data, index) => { // console.log(data);
+data.offerItems.map(Items => { // console.log(Items); that.setState({ price:
+Items.price.total }) console.log("Total Price:", Items.price.total);
+console.log("Tax:", Items.price.totalTaxes); // Items.services.map(services => {
+// console.log(segments.flightSegment.departure.iataCode);
+console.log("One-Way>>>>>>"); Items.services[0].segments.map(segment => {
+console.log("Code:", segment.flightSegment.aircraft.code); console.log("Total
+Duration:", segment.flightSegment.duration); console.log( "TravelClass:",
+segment.pricingDetailPerAdult.travelClass ); console.log( "FareClass:",
+segment.pricingDetailPerAdult.fareClass ); console.log( "Availability:",
+segment.pricingDetailPerAdult.availability ); console.log( "Departure:",
+segment.flightSegment.departure.iataCode ); console.log( "Departure Time:",
+segment.flightSegment.departure.at ); console.log( "Departure Terminal:",
+segment.flightSegment.departure.terminal ); console.log("Arrival:",
+segment.flightSegment.arrival.iataCode); console.log("Arrival Time:",
+segment.flightSegment.arrival.at); console.log( "Arrival Terminal:",
+segment.flightSegment.arrival.terminal ); }); console.log("Return>>>>>>");
+Items.services[1].segments.map(segment => { console.log("Code:",
+segment.flightSegment.aircraft.code); console.log("Total Duration:",
+segment.flightSegment.duration); console.log( "TravelClass:",
+segment.pricingDetailPerAdult.travelClass ); console.log( "FareClass:",
+segment.pricingDetailPerAdult.fareClass ); console.log( "Availability:",
+segment.pricingDetailPerAdult.availability ); console.log( "Departure:",
+segment.flightSegment.departure.iataCode ); console.log( "Departure Time:",
+segment.flightSegment.departure.at ); console.log( "Departure Terminal:",
+segment.flightSegment.departure.terminal ); console.log("Arrival:",
+segment.flightSegment.arrival.iataCode); console.log("Arrival Time:",
+segment.flightSegment.arrival.at); console.log( "Arrival Terminal:",
+segment.flightSegment.arrival.terminal ); }); // }); }); }); //
+console.log(response.data); }) .catch(function (responseError) {
+console.log(responseError.code); }); } else { amadeus.shopping.flightOffers
+.get({ origin: flightData.origin, destination: flightData.destination,
+departureDate: flightData.departureDate // returnDate: returnDate })
+.then(function (response) { response.data.map((data, index) => { //
+console.log(data); data.offerItems.map(Items => { // console.log(Items);
+console.log("Total Price:", Items.price.total); console.log("Tax:",
+Items.price.totalTaxes); // Items.services.map(services => { //
+console.log(segments.flightSegment.departure.iataCode);
+console.log("One-Way>>>>>>"); Items.services[0].segments.map(segment => {
+console.log("Code:", segment.flightSegment.aircraft.code); console.log("Total
+Duration:", segment.flightSegment.duration); console.log( "TravelClass:",
+segment.pricingDetailPerAdult.travelClass ); console.log( "FareClass:",
+segment.pricingDetailPerAdult.fareClass ); console.log( "Availability:",
+segment.pricingDetailPerAdult.availability ); console.log( "Departure:",
+segment.flightSegment.departure.iataCode ); console.log( "Departure Time:",
+segment.flightSegment.departure.at ); console.log( "Departure Terminal:",
+segment.flightSegment.departure.terminal ); console.log("Arrival:",
+segment.flightSegment.arrival.iataCode); console.log("Arrival Time:",
+segment.flightSegment.arrival.at); console.log( "Arrival Terminal:",
+segment.flightSegment.arrival.terminal ); }); }); }); //
+console.log(response.data); }) .catch(function (responseError) {
+console.log(responseError.code); }); } } render() { return
+<h1>{this.state.price}</h1>
+; } } export default ContainerComponent;
