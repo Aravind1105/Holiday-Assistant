@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-Holiay Assistant is a web application using web technologies and frameworks with fully responsive in all devices where the users are allowed to book flights and hotels for their vacation within Europe.
+Holiday Assistant is a web application developed using web technologies and frameworks with fully responsive in all devices where the users are allowed to book flights and hotels for their vacation within Europe.
 
 ## Technology Stack
 1. 	ReactJS
