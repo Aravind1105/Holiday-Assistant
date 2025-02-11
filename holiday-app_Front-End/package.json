@@ -40,7 +40,7 @@
     "react-native-calendar": "^0.13.1",
     "react-native-calendars": "^1.141.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-select": "^2.4.3",
     "react-simple-datepicker": "^0.1.4",
     "react-star-rating": "^1.4.2",
@@ -79,7 +79,7 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-syntax-class-properties": "^7.2.0",
     "install-peers": "^1.0.3",
-    "webpack": "^4.32.0"
+    "webpack": "^5.97.1"
   },
   "babel": {
     "presets": [
